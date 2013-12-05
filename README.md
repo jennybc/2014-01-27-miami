@@ -1,3 +1,5 @@
+See the current as-rendered webpage here: http://jennybc.github.io/2014-01-27-miami/
+
 Software Carpentry Bootcamps
 ============================
 
