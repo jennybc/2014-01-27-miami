@@ -1,11 +1,13 @@
 ---
 layout: lesson
-root: ../..
+root: ../../..
 title: Git and GitHub
 ---
-**Based on materials by Katy Huff, Anthony Scopatz, Joshua R. Smith, and Sri Hari Krishna Narayanan**
+**Written by [Matt Davis](mailto:jiffyclub@gmail.com)**
 
-The goal of this lesson is to introduce the students to [Git][] via
+# Git/GitHub
+
+The goal of this lesson is to introduce the students to [Git][git] via
 collaboration on [GitHub][].
 
 ## Introduction
@@ -99,7 +101,7 @@ collaboration.
 ### Previewing Changes
 
 - The file we're making is going to be a list of the top things everyone wants
-  to learn in the boot camp. Add your item (e.g. everyone's names) and save.
+  to learn in the bootcamp. Add your item (e.g. everyone's names) and save.
 - `git status` -- point out that now we have a modified file instead of an
   untracked file, but the procedure for adding it to the next snapshot is
   the same.
