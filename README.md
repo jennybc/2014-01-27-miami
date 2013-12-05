@@ -1,5 +1,14 @@
 See the current as-rendered webpage here: http://jennybc.github.io/2014-01-27-miami/
 
+Roles
+
+  * Jenny Bryan, lead instructor for whole bootcamp, instructor for an R room
+  * Victor Ng, Python
+  * Carlos Anderson, R, can be instructor, needs to see intermediate content to decide which room best
+  * Jonah Duckles, R or Python, probably helper, probably zero-entry room
+  * Bernhard Konrad
+  * Justin Ely
+
 Software Carpentry Bootcamps
 ============================
 
