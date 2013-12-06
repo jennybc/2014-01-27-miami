@@ -6,8 +6,8 @@ Roles
   * Victor Ng, Python
   * Carlos Anderson, R, can be instructor, needs to see intermediate content to decide which room best
   * Jonah Duckles, R or Python, probably helper, probably zero-entry room
-  * Bernhard Konrad
-  * Justin Ely
+  * Bernhard Konrad, Python and R (but basic probably better fit than intermediate)
+  * Justin Ely, Python (also can do git/shell/testing)
 
 Software Carpentry Bootcamps
 ============================
