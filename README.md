@@ -1,6 +1,6 @@
 See the current as-rendered webpage here: http://jennybc.github.io/2014-01-27-miami/
 
-Roles
+Instructors
 
   * Jenny Bryan, lead instructor for whole bootcamp, instructor for an R room
   * Victor Ng, Python
@@ -9,26 +9,35 @@ Roles
   * Bernhard Konrad, Python and R (but basic probably better fit than intermediate)
   * Justin Ely, Python (also can do git/shell/testing)
   
+Roles (tentative)
+
+  * Python room: Justin and Victor
+  * R room: Jenny (lead day 1) and Bernhard (lead some or all day 2)
+  * R room: Jonah and Carlos
+  
 Schedule (still under development)
 
 Monday Jan 27 -- Day is primarily focused on R or Python, depending on room
 
   * 9:00am - 10:30am session 1.1
+    - announcements 9:00am - 9:05am in room x
   * 10:30am - 11:00am break
   * 11:00am - 12:30pm session 1.2
+    - announcements 9:00am - 9:05am in room y
   * 12:30pm - 1:45pm lunch
   * 1:45pm - 3:15pm session 1.3
+    - announcements 9:00am - 9:05am in room z
   * 3:15pm - 3:45pm break
   * 3:45pm - 5:00pm session 1.4
   
 Tuesday Jan 28 -- Day is primarily focused on shell, version control, etc.
 
   * 9:00am - 10:30am session 2.1
-    - ethics 9:00am - 9:30am in room x
-    - ethics 10:00am - 10:30am in room y
+    - announcements + ethics/RCR 9:00am - 9:30am in room x
+    - announcements + ethics/RCR 10:00am - 10:30am in room y
   * 10:30am - 11:00am break
   * 11:00am - 12:30pm session 2.2
-    - ethics 11:00am - 11:30am in room z
+    - announcements + ethics/RCR 11:00am - 11:30am in room z
   * 12:30pm - 1:45pm lunch
   * 1:45pm - 3:15pm session 2.3
   * 3:15pm - 3:45pm break
