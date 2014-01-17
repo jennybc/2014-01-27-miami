@@ -23,10 +23,10 @@ Monday Jan 27 -- Day is primarily focused on R or Python, depending on room
     - announcements 9:00am - 9:05am in room x
   * 10:30am - 11:00am break
   * 11:00am - 12:30pm session 1.2
-    - announcements 9:00am - 9:05am in room y
+    - announcements 11:00am - 11:05am in room y
   * 12:30pm - 1:45pm lunch
   * 1:45pm - 3:15pm session 1.3
-    - announcements 9:00am - 9:05am in room z
+    - announcements 1:45pm - 2:00pm in room z
   * 3:15pm - 3:45pm break
   * 3:45pm - 5:00pm session 1.4
   
