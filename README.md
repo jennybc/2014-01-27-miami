@@ -2,18 +2,28 @@ See the current as-rendered webpage here: http://jennybc.github.io/2014-01-27-mi
 
 Instructors
 
-  * Jenny Bryan, lead instructor for whole bootcamp, instructor for an R room
-  * Victor Ng, Python
-  * Carlos Anderson, R, can be instructor, needs to see intermediate content to decide which room best
-  * Jonah Duckles, R or Python, probably helper, probably zero-entry room
-  * Bernhard Konrad, Python and R (but basic probably better fit than intermediate)
-  * Justin Ely, Python (also can do git/shell/testing)
+  * Jenny Bryan
+  * Victor Ng
+  * Carlos Anderson
+  * Jonah Duckles
+  * Bernhard Konrad
+  * Justin Ely
   
-Roles (tentative)
+Roles re: rooms (tentative)
 
   * Python room: Justin and Victor
-  * R room: Jenny (lead day 1) and Bernhard (lead some or all day 2)
-  * R room: Jonah and Carlos
+  * R room (zero entry, if split): Jonah (lead) and Carlos (helper but lead some or all day 2)
+  * R room (intermediate, if split: Jenny (lead day 1) and Bernhard (helper but lead some or all day 2)
+  
+Roles re: domains (tentative)
+
+  * Jenny Bryan, lead instructor for whole bootcamp, R lead 1 of 2
+  * Jonah?, R lead 2 of 2 
+  * Justin or Victor?, Python lead
+  * Version control, Jonah or Carlos?
+  * ??? Repo / website / workflow Czar
+  * ??? Lead on shell or make/pipelines or testing or ???
+  
   
 Schedule (still under development)
 
