@@ -17,12 +17,12 @@ Roles re: rooms (tentative)
   
 Roles re: domains (tentative)
 
-  * Jenny Bryan, lead instructor for whole bootcamp, R lead 1 of 2
-  * Jonah?, R lead 2 of 2 
+  * Jenny Bryan, lead instructor for whole bootcamp, R lead intermediate
+  * Jonah or Carlos?, R lead zero entry
   * Justin or Victor?, Python lead
-  * Version control, Jonah or Carlos?
-  * ??? Repo / website / workflow Czar
-  * ??? Lead on shell or make/pipelines or testing or ???
+  * Jonah or Carlos?, Version control
+  * Bernhard, Repo / website / workflow Czar
+  * Justin or Victor? Lead on shell, make/pipelines, testing, etc
   
   
 Schedule (still under development)
