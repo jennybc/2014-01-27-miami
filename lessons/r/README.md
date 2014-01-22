@@ -25,7 +25,7 @@ R lessons for January 2014 U of Miami Software Carpentry Bootcamp
     - Making figures using `ggplot2`. Jenny to develop / select materials. She has material but it's not out on the web yet.
     - Previous session may use some time here, but easy to adjust length of this on the fly.
   * session 2.1
-    - The shell, especially file management. Show R native equivalents for relevant operations. Bernhard to develop / select materials. Will be operating on files from day 1. And commiting the newly names/reorganized files to local repos.
+    - The shell, especially file management. Show R native equivalents for relevant operations. Bernhard to develop / select materials. Will be operating on files from day 1. And commiting the newly named/reorganized files to local repos.
   * session 2.2
     - Return to version control, dealing with remote/hosted repositories. Github. Bernhard to develop / select materials. 
   * session 2.3
