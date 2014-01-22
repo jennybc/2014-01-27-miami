@@ -259,25 +259,28 @@ you will need to install Jekyll 1.0.3 or later in order to preview things locall
 If you have Ruby installed on your computer,
 this *should* be as simple as:
 
-    gem install jekyll
-    gem install redcarpet
+    gem install github-pages
 
-We try to use the same MarkDown interpreters as GitHub does for
-consistency.  On OS X, we suggest you use a recent Ruby to get access
-to these.  If you don't have Homebrew or MacPorts installed, here's a
-quick recipe to get started using HomeBrew.
+or if that doesn't work:
+
+    gem install jekyll
+    gem install kramdown
+
+(We use Kramdown for translating Markdown instead of the default
+Redcarpet because Kramdown will handle Markdown inside HTML blocks).
+On OS X, we suggest you use a recent Ruby to get access to these.  If
+you don't have Homebrew or MacPorts installed, here's a quick recipe
+to get started using HomeBrew.
 
 ```
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 brew install ruby
-gem install jekyll
-gem install redcarpet 
 ```
 
-If you don't have `make` in your machine, you can build the preview with:
+and then `gem install` as above.  If you don't have `make` in your
+machine, you can build the preview with:
 
     jekyll -t build -d _site
-
 
 Layout and Variables
 --------------------
@@ -492,6 +495,31 @@ FAQ
     
         gem uninstall pygments.rb --version "=0.5.2"
         gem install pygments.rb --version "=0.5.0"
+
+*   *What do I do if I see a `File not found: u'nbconvert'` when I run `make check`?*
+    <br/>
+    The output of `make check` looks like this:
+    
+        WARNING: Unrecognized alias: 'output', it will probably have no effect.[TerminalIPythonApp] File not found: u'nbconvert'
+        cp tmp/python/novice/01-numpy.html _site/python/novice/01-numpy.html
+        cp: cannot stat ‘tmp/python/novice/01-numpy.html’: No such file or directory
+    
+    This means you don't have a recent enough version of IPython (below 1.0) and you should install a newer version.
+    Installing a local version can be done with:
+    
+        pip install --upgrade --user ipython
+
+    You might need `pip` that can be installed (under Ubuntu and alike) with:
+    
+        sudo apt-get install python-pip
+
+*   *What if I get some missing packages messages when I run `make check`?*
+    <br/>
+    Some additional packages are required. They can be installed (under Ubuntu and alike) with:
+    
+        sudo apt-get install pandoc jinja2
+
+    Installation of `jinja2` can also be carried on using `pip`.
 
 *   *Where should pages go if multiple boot camps are running at a site simultaneously?*
     <br/>
