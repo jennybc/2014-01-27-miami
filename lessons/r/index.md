@@ -1,6 +1,6 @@
 ---
 layout: lesson
-root: ../..
+root: ../../
 title: Jenny test
 raw: raw.github.com/swcarpentry/bc/gh-pages
 ---
