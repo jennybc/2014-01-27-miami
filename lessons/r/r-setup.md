@@ -31,18 +31,48 @@ Use the above method to install the following packages:
 
   * `plyr`, [package webpage](http://plyr.had.co.nz) 
   * `knitr` [package webpage](http://yihui.name/knitr/)
+  
 
+## Communication between RStudio and Git
+
+Obviously, RStudio can only act as a GUI front-end for Git if Git has been successfully installed and RStudio can find it.
+
+*It would be nice if you did this in advance, but we will also establish this connection in the workshop.*
+
+A basic test for successful installation of Git is to simply type `git` at the shell command line. If you get a complaint about Git not being found it means installation was unsuccessful or that it is not being found, i.e. it is not on your `PATH`.
+
+If Git appears to be installed, launch RStudio. Quit and re-launch RStudio if there's any doubt in your mind about whether you opened RStudio before or after installing Git.
+
+We will create a new dummy "Project" and direct RStudio to put it under version control
+
+  - Do `File > New Project...`. You should see a pop up [like this](http://www.rstudio.com/images/screenshots/rstudio-projects_new.png).
+  - Select "New Directory: Start a project in a brand new working directory".
+  - Select "Empty Project: Create a new project in an empty directory".
+  - Create a new directory for this project anywhere you wish, perhaps with a name like `test`. You can delete this very soon.
+  - Do `Tools > Project Options...`. Click on "Git/SVN". Select "Git" in the Version control system dropdown menu. Answer "yes" to the "Confirm New Git Repository" pop up. Answer "yes" to the "Confirm Restart RStudio" pop up.
+  - After RStudio re-launches and opens your test Project, the upper left pane should have  "Git" tab, typically along with "Environment", "History", etc. You can see an example [in this screenshot](http://www.rstudio.com/images/screenshots/rstudio-vcs.png).
+  - If this has gone well, it looks like Git and RStudio are ready to work together! Feel free to quite RStudio and delete the `test` directory/Project.
+  
+In some circumstances, it may be necessary to explicitly tell RStudio where to find the Git executable.
+
+  * Do `RStudio > Preferences` or, alternatively, do `Tools > Global Options...`.
+  * Click on "Git/SVN".
+  * Fill in the Git executable field correctly. Here is a [screenshot](http://www.molecularecologist.com/wp-content/uploads/2013/11/Screenshot-2013-11-12-09.53.56-Copy1.png) of someone doing this on a Windows machine.
+  * If you think Git has been installed but you're not sure where it is, entering `which git` at the shell command line should reveal the path to the Git executable.
+  
 ## Further resources
 
 The above will get your basic setup ready but here are some links if you are interested in reading a bit further.
 
-* How to Use RStudio:
+  * How to Use RStudio:
     - <http://www.rstudio.com/ide/docs/>
-* More RStudio Support:
-  - <https://support.rstudio.com/hc/en-us>
-* R Installation and Administration
+  * More RStudio Support:
+    - <https://support.rstudio.com/hc/en-us>
+  * Using Version Control with RStudio
+    - <http://www.rstudio.com/ide/docs/version_control/overview>
+  * R Installation and Administration
     - <http://cran.r-project.org/doc/manuals/R-admin.html>
-* R FAQ:
+  * R FAQ:
     - <http://cran.r-project.org/doc/FAQ/R-FAQ.html>
-* More about add-on packages in the R Installation and Administration Manual
-     - <http://cran.r-project.org/doc/manuals/R-admin.html#Add_002don-packages>
+  * More about add-on packages in the R Installation and Administration Manual
+    - <http://cran.r-project.org/doc/manuals/R-admin.html#Add_002don-packages>
