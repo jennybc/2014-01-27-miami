@@ -3,7 +3,7 @@ layout: lesson
 root: ../..
 github_username: jennybc
 bootcamp_slug: 2014-01-27-miami
-checkout_branch: 
+checkout_branch: R-zeroentry 
 title: Miami Bootcamp Shell Tutorial
 ---
 
