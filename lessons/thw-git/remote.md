@@ -1,12 +1,12 @@
 ---
 layout: lesson
 root: ../..
-testrepo: 2013-12-25-euphoric
-username: instructor
-title: "Version Control With Git: Using Remote Repositories"
+testrepo: testrepo-2014-01-27-miami
+username: jduckles
+title: "Version Control Wi th Git: Using Remote Repositories"
 ---
 ## github.com?
-
+ 
 GitHub is a site where many people store their open (and closed) source
 code repositories. It provides tools for browsing, collaborating on and
 documenting code. Your home institution may have a repository hosting
@@ -29,16 +29,16 @@ etc.) provides :
 **NOTE** Public repos have public licences **by default**. If you don't
 want to share (in the most liberal sense) your stuff with the world, pay
 github money for private repos, or host your own.
-
+ 
 ## github pasword 
-
+ 
 Setting up github at first requires a github user name and password.
 Please take a moment to [create a free one](https://github.com/signup/free)
 (if you want to start paying, you can add that to your account some other
 day). 
-
+ 
 ## git remote : Steps for Forking a Repository
-
+ 
 A key step to interacting with an online repository that you have forked
 is adding the original as a remote repository. By adding the remote
 repository, you inform git of a new option for fetching updates and
@@ -49,7 +49,7 @@ delete repositories such as the original one **upstream** from your
 fork, others that may be **parallel** to your fork, and so on.
 
 ### Exercise : Fork Our GitHub Repository
-
+ 
 In step 1, you will make a copy "fork" of our test repository {{page.testrepo}} 
 on github.  This gives you a copy of this repository that you control.
 
@@ -90,7 +90,7 @@ The **git remote add** merely defines a nickname and a location that
 git will be able to communicate with for making copies of your 
 repository.  "origin" and "upstream" are nicknames for your fork of 
 {{page.testrepo}} and the "original" {{page.testrepo}}, respectively.
-
+ 
 ## git fetch : Fetching the contents of a remote
 
 Now that you have alerted your repository to the presence of others, it
@@ -104,7 +104,7 @@ from the original master (upstream) repository. By itself, the fetch
 command does not change your local working copy. To update your local
 working copy to include recent changes in the original (upstream)
 repository, it is necessary to also merge.
-
+ 
 ## git merge : Merging the contents of a remote
 
 To incorporate upstream changes from the original master repository (in
