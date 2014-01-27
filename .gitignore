@@ -7,3 +7,6 @@ _site
 *.Rproj
 tmp
 image-page.html
+.RData
+2014-01-27_miami-swc-agenda.pdf
+*.key
