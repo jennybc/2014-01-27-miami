@@ -32,7 +32,7 @@ with a keyboard instead of controlling graphical user interfaces
 
 Use a browser to open the tutorial on github, located at:
 
-    https://github.com/{{page.github_username}}/{{page.bootcamp_slug}}
+    https://github.com/{{page.github_username}}/{{page.bootcamp_slug}}/tree/{{page.checkout_branch}}
 
 Click on the directory named `day1.shell`.
 
